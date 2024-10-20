@@ -1,0 +1,46 @@
+Siras@▒▒▒▒ MINGW64 ~ (main)
+$ cd desktop
+
+Siras@▒▒▒▒ MINGW64 ~/desktop (main)
+$ mkdir git_challenge
+
+Siras@▒▒▒▒ MINGW64 ~/desktop (main)
+$ cd git_challenge
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git init
+Initialized empty Git repository in C:/Users/Siras/Desktop/git_challenge/.git/
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git add hello_world.txt
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git commit -m"hello_world.txtを追加"
+[main (root-commit) 2ab4b5e] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git add hello_world.txt
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git commit -m"日本語訳を追記"
+[main f51f38e] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git log
+commit f51f38eee616ef1a6b6f44516bdfef25a20f316f (HEAD -> main)
+Author: YUUY SHT <sirasakibb1@gmail.com>
+Date:   Sun Oct 20 22:28:20 2024 +0900
+
+    日本語訳を追記
+
+commit 2ab4b5e54d389fef6035e06ca7543d453f850cf3
+Author: YUUY SHT <sirasakibb1@gmail.com>
+Date:   Sun Oct 20 22:26:14 2024 +0900
+
+    hello_world.txtを追加
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$
