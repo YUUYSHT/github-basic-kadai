@@ -1,0 +1,37 @@
+Siras@▒▒▒▒ MINGW64 ~ (main)
+$ cd desktop
+
+Siras@▒▒▒▒ MINGW64 ~/desktop (main)
+$ mkdir git_challenge
+
+Siras@▒▒▒▒ MINGW64 ~/desktop (main)
+$ cd git_challenge
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git init
+Initialized empty Git repository in C:/Users/Siras/Desktop/git_challenge/.git/
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git add hello_world.txt
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git commit -m"hello_world.txtを追加"
+[main (root-commit) ae7c174] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git add hello_world.txt
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git commit -m"日本語訳を追記"
+[main e1a5e91] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$ git log --oneline
+e1a5e91 (HEAD -> main) 日本語訳を追記
+ae7c174 hello_world.txtを追加
+
+Siras@▒▒▒▒ MINGW64 ~/desktop/git_challenge (main)
+$
